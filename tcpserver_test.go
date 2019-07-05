@@ -117,7 +117,6 @@ func (suite *TcpServerTestSuite) TestGetCommand_NilValue() {
 
 	actual, err := redisClient.Get("key1").Result()
 	if assert.NoError(t, err) {
-		// redis driver return empty string :(
 		assert.Equal(t, "", actual)
 	}
 }
