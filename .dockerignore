@@ -1,4 +1,5 @@
 .git
+.idea
 Dockerfile
 docker-compose.yml
 README.md
